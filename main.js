@@ -5,6 +5,10 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`)
+    let handler = require('./commandHandler')
+    if (handler.default) handler = handler.default
+
+    handler(client)
 });
 
 client.on("messageCreate", (message) => {

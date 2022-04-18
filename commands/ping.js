@@ -1,6 +1,6 @@
 module.exports = {
     callback: (message, ...args) => {
         console.log(args)
-        message.reply('Pong!')
+        message.reply('Stfu, pong')
     },
 }

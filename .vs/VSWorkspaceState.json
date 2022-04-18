@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\commands",
+    "\\commands\\math"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\commands\\math\\add.js",
   "PreviewInSolutionExplorer": false
 }

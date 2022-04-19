@@ -22,11 +22,11 @@ module.exports = (client) => {
     console.log(commands)
 
     client.on('messageCreate', (message) => {
-        if (message.author.bot || !message.content.startsWith('%')) {
+        if (message.author.bot || !message.content.startsWith('ed!')) {
             return
         }
 
-        const args = message.content.slice(1).split(/ +/)
+        const args = message.content.slice(3).split(/ +/)
         const commandName = args.shift().toLowerCase()
 
         if (!commands[commandName]) {

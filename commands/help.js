@@ -9,10 +9,10 @@ module.exports = {
             .setAuthor({ name: "eddie bot", iconURL: 'https://cdn.discordapp.com/attachments/964294368074825770/965853882616012820/ed.png?width=631&height=473'})
             .addFields(
                 {
-                    name: 'Ping', value: "`ed!help`, returns pong!", inline: true
+                    name: 'Ping', value: "`ed!ping` returns pong!"
                 },
                 {
-                    name: 'Addition', value: '`ed!add <number> <number>` adds the numbers, an infinite amount of numbers can be used', inline: true
+                    name: 'Addition', value: '`ed!add <number> <number>` adds the numbers, an infinite amount of numbers can be used'
                 },
             )
             .setColor("PURPLE")

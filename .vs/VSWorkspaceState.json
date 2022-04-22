@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\commands",
-    "\\commands\\math"
+    "\\commands\\math",
+    "\\Schemas"
   ],
-  "SelectedNode": "\\commands\\help.js",
+  "SelectedNode": "\\commands\\data.js",
   "PreviewInSolutionExplorer": false
 }

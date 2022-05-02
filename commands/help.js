@@ -14,6 +14,12 @@ module.exports = {
                 {
                     name: 'Addition', value: '`ed!add <number> <number>` adds the numbers, an infinite amount of numbers can be used'
                 },
+                {
+                    name: 'Record', value: 'Using `ed!record <insert data here>` will save data. It can be accessed later.', inline: true
+                },
+                {
+                    name: 'Display Data', value: 'Using `ed!data` will display a list of all the data that has been saved using `ed!record`', inline: true
+                },
             )
             .setColor("PURPLE")
             .setFooter("you're mother hung herslef", "https://i.ytimg.com/vi/Z-JD_iYWCP4/hqdefault.jpg")

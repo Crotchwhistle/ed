@@ -8,7 +8,7 @@ client.on("ready", async () => {
     await mongoose.connect(
         process.env.MONGO_URI,
         {
-            keepAlive: true
+            keepAlive: true 
         }
     )
 

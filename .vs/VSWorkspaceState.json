@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\commands",
+    "\\Schemas"
   ],
+  "SelectedNode": "\\commands\\help.js",
   "PreviewInSolutionExplorer": false
 }

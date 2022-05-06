@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js')
 
 module.exports = {
     callback: (message, text) => {
-        message.reply("Here's a list of my commands!")
+        message.reply("whyd you ask for help you dumb cunt")
         const helpEmbed = new MessageEmbed()
             .setTitle("Commands")
             .setDescription("A simple list of the things you can tell eddie to do (shocking, i know)")
@@ -10,9 +10,6 @@ module.exports = {
             .addFields(
                 {
                     name: 'Ping', value: "`ed!ping` returns pong!"
-                },
-                {
-                    name: 'Addition', value: '`ed!add <number> <number>` adds the numbers, an infinite amount of numbers can be used'
                 },
                 {
                     name: 'Record', value: 'Using `ed!record <insert data here>` will save data. It can be accessed later.', inline: true
